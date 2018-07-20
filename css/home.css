@@ -1,0 +1,260 @@
+/* The hero image */
+.hero-image {
+background-image: url("../image/home1.png");
+background-size: contain;
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+}
+
+ul
+{
+padding-left:0;
+}
+
+.fly-in-text{
+list-style: none;
+}
+
+.fly-in-text li{
+display: inline-block;
+margin-right: 18px;
+font-size:5rem;
+opacity: 1;
+transition:all 2s ease;
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+}
+
+.fly-in-text li:last-child{
+   margin-right:0;
+}
+
+.fly-in-text.hidefirst li{
+  opacity:0;
+}
+
+.fly-in-text.hidefirst li:nth-child(1) {-webkit-transform:translateX(-100px) translateY(-10px);}
+.fly-in-text.hidefirst li:nth-child(2) {-webkit-transform:translateX(30px) translateY(30px);}
+.fly-in-text.hidefirst li:nth-child(3) {-webkit-transform:translateX(-20px) translateY(100px);}
+.fly-in-text.hidefirst li:nth-child(4) {-webkit-transform:translateX(50px) translateY(-80px);}
+.fly-in-text.hidefirst li:nth-child(5) {-webkit-transform:translateX(10px) translateY(-200px);}
+.fly-in-text.hidefirst li:nth-child(7) {-webkit-transform:translateX(80px) translateY(-20px);}
+.fly-in-text.hidefirst li:nth-child(8) {-webkit-transform:translateX(30px) translateY(200px);}
+.fly-in-text.hidefirst li:nth-child(9) {-webkit-transform:translateX(-20px) translateY(-70px);}
+.fly-in-text.hidefirst li:nth-child(10) {-webkit-transform:translateX(80px) translateY(-20px);}
+
+
+
+.portfolio{
+margin-left:10%;
+margin-right:10%;
+margin-bottom:80px;
+margin-top:80px;
+}
+
+
+.bgcolor
+{
+width:100%;
+background-color:#fafafa;
+}
+
+.bgtoolkit
+{
+height:auto;
+width:100%;
+padding-top:5%;
+padding-bottom: 5%;
+padding-left: 10%;
+padding-right:10%;
+margin-bottom:45px;
+}
+
+.project
+{
+padding: 10px;
+}
+
+.bgmeimage
+{
+/*background-image: url("../image/me2.png");*/
+width:60%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 10%;
+padding-bottom: 10%;
+padding-left: 4%;
+height: 400px;
+margin-bottom: 80px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.pj-title {
+  color: #096187;
+  font-size: 20px;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.cartogram_container {
+  position: relative;
+}
+
+.flights_container {
+  position: relative;
+}
+
+.vdbscan_container {
+  position: relative;
+}
+
+.hmobility_container {
+  position: relative;
+}
+
+.powergrid_container {
+  position: relative;
+}
+
+.mmm_container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.cartogram_slides {
+  display: none;
+}
+
+.flights_slides {
+  display: none;
+}
+
+.vdbscan_slides {
+  display: none;
+}
+
+.hmobility_slides {
+  display: none;
+}
+
+.powergrid_slides {
+  display: none;
+}
+
+.mmm_slides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "previous button" to the left */
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 18px;
+  font-family: Cambria;
+  padding: 15px 20px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-cartogram {
+  text-align: center;
+  background-color: white;
+  padding: 4px 16px;
+  color: #222;
+}
+
+.caption-flights {
+  text-align: center;
+  background-color: white;
+  padding: 4px 16px;
+  color: #222;
+}
+
+.caption-vdbscan {
+  text-align: center;
+  background-color: white;
+  padding: 4px 16px;
+  color: #222;
+}
+
+.caption-hmobility {
+  text-align: center;
+  background-color: white;
+  padding: 4px 16px;
+  color: #222;
+}
+
+.caption-powergrid {
+  text-align: center;
+  background-color: white;
+  padding: 4px 16px;
+  color: #222;
+}
+
+.caption-mmm {
+  text-align: center;
+  background-color: white;
+  padding: 4px 16px;
+  color: #222;
+}
+
+/*.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}*/
+
+/* Six columns side by side */
+/*.column {
+  float: left;
+  width: 16.66%;
+}*/
+
+/*.active,
+.demo:hover {
+  opacity: 1;
+}*/

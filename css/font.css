@@ -1,0 +1,66 @@
+h1,h2,h3,h4,h5,h6
+{
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+}
+
+h4
+{
+padding-bottom:15px;
+}
+
+b{
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+}
+
+p
+{
+font-family: 'Montserrat', sans-serif;
+font-size:1.2rem;
+}
+
+a
+{
+font-family: 'Montserrat', sans-serif;
+color:#240000;
+text-decoration: none;
+padding:23px;
+font-size:1.3rem;
+}
+
+a:hover
+{
+text-decoration: none;
+color:#dc2120;
+}
+
+li
+{
+font-family: 'Raleway', sans-serif;
+}
+
+/*
+@font-face {
+ font-family: 'segoeui';
+ src: url('../fonts/segoeui.ttf');
+ src: local('segoeui'),
+      url('../fonts/segoeui.ttf') format('truetype'),
+      url('../fonts/SegoeUI.svg') format('svg');
+}
+@font-face {
+ font-family: 'segoeuib';
+ src: url('../fonts/segoeuib.ttf');
+ src: local('segoeuib'),
+      url('../fonts/segoeuib.ttf') format('truetype'),
+      url('../fonts/SegoeUI-Bold.svg') format('svg');
+}
+
+@font-face {
+ font-family: 'segoeuisb';
+ src: url('../fonts/seguisb.ttf');
+ src: local('segoeuisb'),
+      url('../fonts/seguisb.ttf') format('truetype'),
+      url('../fonts/SegoeUI-Semibold.svg') format('svg');
+}
+*/
