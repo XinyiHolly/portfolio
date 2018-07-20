@@ -8,15 +8,13 @@
 <title>About Xinyi</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 <link rel="stylesheet" href="css/about.css"type="text/css" />
-<link rel="stylesheet" href="css/jquery-jvectormap-2.0.3.css" type="text/css" media="screen"/>
+<!-- <link rel="stylesheet" href="css/jquery-jvectormap-2.0.3.css" type="text/css" media="screen"/> -->
 <link rel="stylesheet" href="css/buttons.css">
 <link rel="stylesheet" href="css/basic.css">
 <link rel="stylesheet" href="css/font.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Raleway" >
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,600|Montserrat" >
 <link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css">
-<link href="image/favicon.ico" mce_href="favicon.ico" rel="bookmark" type="image/x-icon" />
-<link href="image/favicon.ico" mce_href="favicon.ico" rel="icon" type="image/x-icon" />
-<link href="image/favicon.ico" mce_href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<!-- <link href="image/dorling_circle_12.png" mce_href="dorling_circle_12.png" rel="dorling's circle" type="image/dorling_circle_12.png" /> -->
 </head>
 
 <body oncontextmenu="return false;">
@@ -40,12 +38,9 @@
     </div>
   </nav>
 
-
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-caret-up fa-lg" aria-hidden="true"></i></button>
 
-
 <div class="container-fluid" >
-
 
 	<div class="bgimage">
 		<div class="row">
@@ -78,23 +73,6 @@
 		</div>
 		<br/><br/>
   </div>
-  <!--
-	<div class="bgtechimage">
-		<div>
-				<div class="top"></div>
-			<div class="col" style="margin-left:10%;">
-				<h1> New Tech and Good Stories Excite Me</h1>
-			</div>
-		</div>
-		<div class="row" style="margin-left:10%;">
-				<div class="col-md-6">
-				<p>I still remember the first time I got my hands on a VR headset. Oh the goosebump on my skin and the blood rushed to my head.</p>
-        <p>In my previous internship, I had access to a variety of cutting edge technology. I was constantly at awe and work became an adventure. Playing with new tech is not enough, I am eager to know what makes them work, how to make them work and can't stop thinking about how to incorporate the technology to create amazing experiences.</p>
-        <p>I guess I am secretly a nerd at heart <i class="em em-smirk"></i></i></p>
-				</div>
-			</div>
-	</div>
--->
 </div>
 
 <div class="footer">
@@ -118,161 +96,6 @@
 		</div>
 	</div>
 </div>
-
-
-<script src="js/jquery-2.1.4.min.js"></script>
-<script src="js/jquery-jvectormap-2.0.3.min.js"></script>
-<script src="js/jquery-jvectormap-world-merc.js"></script>
-<script src="js/jquery-jvectormap-china-en.js"></script>
-<script src="https://use.fontawesome.com/016b0f5090.js"></script>
-
-<script>
-$(function(){
-	  $('#worldmap').vectorMap({
-	    map: 'world_merc',
-	    scaleColors: ['#C8EEFF', '#0071A4'],
-	    normalizeFunction: 'polynomial',
-	    hoverOpacity: 0.7,
-	    hoverColor: false,
-	    markerStyle: {
-	      initial: {
-	        fill: '#FFB0A6',
-	        stroke:'#D4D9DC'
-	      }
-	    },
-	    backgroundColor: '#e9edef',
-	    markers: [
-		  {latLng: [23.69,120.96], name: 'Taiwan'},
-		  {latLng: [22.54,114.05], name: 'Shenzhen'},
-		  {latLng: [31.23,121.47], name: 'Shanghai'},
-		  {latLng: [38.9136803016,121.6147485454], name: 'Dalian'},
-		  {latLng: [22.1897977467,113.5378135733], name: 'Macau'},
-		  {latLng: [34.3415680000,108.9401750000], name: 'Xian'},
-		  {latLng: [39.9042110000,116.4073950000], name: 'Beijing'},
-		  {latLng: [34.7470410000,113.6258050000], name: 'Zhengzhou'},
-		  {latLng: [29.7147480000,118.3376210000], name: 'Huangshan'},
-		  {latLng: [36.2558333000,117.1055555000], name: 'Taishan'},
-		  {latLng: [24.4798340000,118.0894250000], name: 'Xiamen'},
-		  {latLng: [41.8808720000,123.9572080000], name: 'Fushun'},
-		  {latLng: [41.4869810000,123.6851430000], name: 'Benxi'},
-		  {latLng: [43.8170720000,125.3235440000], name: 'Changchun'},
-		  {latLng: [45.8037750000,126.5349670000], name: 'Haerbin'},
-		  {latLng: [30.2740850000,120.1550700000], name: 'Hangzhou'},
-		  {latLng: [44.4821090000,128.9164920000], name: 'Snow Village'},
-		  {latLng: [21.2707080000,110.3593770000], name: 'Zhanjiang'},
-		  {latLng: [23.1118470000,114.4161960000], name: 'Huizhou'},
-		  {latLng: [23.0205360000,113.7517650000], name: 'Dongguan'},
-		  {latLng: [23.5499930000,116.3728310000], name: 'Jiexi'},
-		  {latLng: [25.2736491995,110.2899977524], name: 'Guilin'},
-		  {latLng: [20.0442814599,110.1998749208], name: 'Haikou'},
-		  {latLng: [22.5159274714,113.3925950816], name: 'Zhongshan'},
-		  {latLng: [23.0217925002,113.1219262330], name: 'Foshan'},
-		  {latLng: [22.9152226392,112.0445104918], name: 'Yunfu'},
-		  {latLng: [23.0469087027,112.4652846846], name: 'Zhaoqing'},
-		  {latLng: [22.5786976278,113.0815873163], name: 'Jiangmen'},
-		  {latLng: [23.3535210655,116.6821850992], name: 'Shantou'},
-		  {latLng: [31.2983274306,120.5831901464], name: 'Suzhou'},
-		  {latLng: [32.0583898428,118.7964667635], name: 'Nanjing'},
-		  {latLng: [22.39,114.10], name: 'Hongkong'},
-		  {latLng: [41.8455241887,123.4432411194], name: 'Shenyang: 2012-2016 College'},
-		  {latLng: [23.12,113.26], name: 'Guangzhou: Home sweet home'},
-	      {latLng: [41.90, 12.45], name: 'Vatican City'},
-	      {latLng: [1.3, 103.8], name: 'Singapore'},
-	      {latLng: [4.21,101.97],name:'Malaysia'},
-	      {latLng: [48.8,2.29],name:'France'},
-	      {latLng: [45.46,9.18],name:'Italy'},
-	      {latLng: [46.81,8.22],name:'Switzerland'},
-	      {latLng: [47.16,9.55],name:'Liechtenstein'},
-	      {latLng: [34.05,-118.24],name:'Los Angeles,CA'},
-	      {latLng: [37.87,-122.27],name:'Berkeley,CA'},
-	      {latLng: [37.77,-122.41],name:'San Francisco,CA'},
-	      {latLng: [32.71,-117.16],name:'San Diego,CA'},
-	      {latLng: [36.16,-115.13],name:'Las Vegas,CA'},
-	      {latLng: [47.27,-111.70],name:'Cascade High School,MT'},
-	      {latLng: [45.78,-108.43],name:'Billings, MT'},
-	      {latLng: [45.67,-111.04],name:'Bozeman, MT'},
-	      {latLng: [48.75,-113.78],name:'West Glacier, MT'},
-	      {latLng: [46.58,-112.02],name:'Helena, MT'},
-	      {latLng: [47.43,-111.50],name:'Ulm, MT:2008-2009Exchange Student'},
-	      {latLng: [47.60,-122.33],name:'Seattle, WA'},
-	      {latLng: [38.90,-77.03],name:'Washington, DC'},
-	      {latLng: [40.71,-74.00],name:'New York, NY'},
-	      {latLng: [21.16,-86.84],name:'Cancún, MX'},
-	      {latLng: [19.43,-99.13],name:'Mexico City, MX'},
-	      {latLng:[41.88,-87.62],name:'Chicago,IL'},
-	      {latLng:[42.36,-71.05],name:'Boston,MA'},
-	      {latLng:[39.95,-75.16],name:'Philadelphia,PA'},
-	      {latLng:[42.27,-83.73],name:'Ann Arbor,MI'},
-	      {latLng:[28.53,-81.37],name:'Orlando,FL'},
-	      {latLng:[29.90,-81.31],name:'St. Augustine,FL'},
-	      {latLng:[27.96,-82.45],name:'Tampa,FL'},
-	      {latLng:[29.21,-81.03],name:'Daytona,FL'},
-				{latLng:[47.60,-122.33],name:'Seattle,WA'},
-				{latLng:[47.67,-122.12],name:'Redmond,WA'},
-				{latLng:[47.61,-122.20],name:'Bellevue,WA'},
-				{latLng:[29.95,-90.07],name:'New Orlenas,LA'},
-				{latLng:[37.46,-122.14],name:'Palo Alto,CA'},
-				{latLng:[45.78,-84.72],name:'Mackinaw City,MI'},
-	    ]
-	  });
-	});
-</script>
-
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-96787632-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-96787632-1');
-</script>
-
-
-<script>
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
-    }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-</script>
-
-<script>
-document.onkeydown=function(e)
-{
-  if(event.keyCode == 123)
-  {
-    return false;
-  }
-
-  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0))
-  {
-    return false;
-  }
-
-  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0))
-  {
-    return false;
-  }
-
-  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0))
-  {
-    return false;
-  }
-}
-</script>
 
 </body>
 </html>

@@ -12,47 +12,12 @@ ul
 padding-left:0;
 }
 
-.fly-in-text{
-list-style: none;
-}
-
-.fly-in-text li{
-display: inline-block;
-margin-right: 18px;
-font-size:5rem;
-opacity: 1;
-transition:all 2s ease;
-font-family: 'Montserrat', sans-serif;
-font-weight: 300;
-}
-
-.fly-in-text li:last-child{
-   margin-right:0;
-}
-
-.fly-in-text.hidefirst li{
-  opacity:0;
-}
-
-.fly-in-text.hidefirst li:nth-child(1) {-webkit-transform:translateX(-100px) translateY(-10px);}
-.fly-in-text.hidefirst li:nth-child(2) {-webkit-transform:translateX(30px) translateY(30px);}
-.fly-in-text.hidefirst li:nth-child(3) {-webkit-transform:translateX(-20px) translateY(100px);}
-.fly-in-text.hidefirst li:nth-child(4) {-webkit-transform:translateX(50px) translateY(-80px);}
-.fly-in-text.hidefirst li:nth-child(5) {-webkit-transform:translateX(10px) translateY(-200px);}
-.fly-in-text.hidefirst li:nth-child(7) {-webkit-transform:translateX(80px) translateY(-20px);}
-.fly-in-text.hidefirst li:nth-child(8) {-webkit-transform:translateX(30px) translateY(200px);}
-.fly-in-text.hidefirst li:nth-child(9) {-webkit-transform:translateX(-20px) translateY(-70px);}
-.fly-in-text.hidefirst li:nth-child(10) {-webkit-transform:translateX(80px) translateY(-20px);}
-
-
-
 .portfolio{
 margin-left:10%;
 margin-right:10%;
 margin-bottom:80px;
 margin-top:80px;
 }
-
 
 .bgcolor
 {
@@ -241,20 +206,3 @@ margin-bottom: 80px;
   padding: 4px 16px;
   color: #222;
 }
-
-/*.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}*/
-
-/* Six columns side by side */
-/*.column {
-  float: left;
-  width: 16.66%;
-}*/
-
-/*.active,
-.demo:hover {
-  opacity: 1;
-}*/
