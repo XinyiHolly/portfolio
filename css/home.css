@@ -61,7 +61,7 @@ margin-bottom: 80px;
 
 .pj-title {
   color: #096187;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -69,11 +69,19 @@ margin-bottom: 80px;
   position: relative;
 }
 
-.flights_container {
+.cartplus_container {
   position: relative;
 }
 
-.vdbscan_container {
+.flight_container {
+  position: relative;
+}
+
+.ipr_container {
+  position: relative;
+}
+
+.mdbscan_container {
   position: relative;
 }
 
@@ -94,11 +102,19 @@ margin-bottom: 80px;
   display: none;
 }
 
-.flights_slides {
+.cartplus_slides {
   display: none;
 }
 
-.vdbscan_slides {
+.flight_slides {
+  display: none;
+}
+
+.ipr_slides {
+  display: none;
+}
+
+.mdbscan_slides {
   display: none;
 }
 
@@ -156,10 +172,10 @@ margin-bottom: 80px;
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: black;
+  color: red;
   font-size: 18px;
   font-family: Cambria;
-  padding: 15px 20px;
+  padding: 8px 13px;
   position: absolute;
   top: 0;
 }
@@ -172,14 +188,28 @@ margin-bottom: 80px;
   color: #222;
 }
 
-.caption-flights {
+.caption-cartplus {
   text-align: center;
   background-color: white;
   padding: 4px 16px;
   color: #222;
 }
 
-.caption-vdbscan {
+.caption-flight {
+  text-align: center;
+  background-color: white;
+  padding: 4px 16px;
+  color: #222;
+}
+
+.caption-ipr {
+  text-align: center;
+  background-color: white;
+  padding: 4px 16px;
+  color: #222;
+}
+
+.caption-mdbscan {
   text-align: center;
   background-color: white;
   padding: 4px 16px;

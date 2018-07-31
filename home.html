@@ -48,7 +48,7 @@
       <h3 style="padding-top:45px;color:gray">Some of My Work</h3><br>
       <div class="row">
         <div class="col-sm-6">
-          <!-- <p class="pj-title">Dorling's Cartogram</p> -->
+          <p class="pj-title">Dorling's Cartogram (Switzerland)</p>
           <!-- Container for the cartogram project gallery -->
           <div class="cartogram_container">
 
@@ -69,7 +69,7 @@
             </div>
 
             <div class="cartogram_slides">
-              <div class="numbertext">400 iterations for circles</div>
+              <div class="numbertext" id="numbercomment">400 iterations for circles</div>
                 <img src="image/dorling_circle_400.png" style="width:100%">
             </div>
 
@@ -88,51 +88,102 @@
                 <img src="image/dorling_square_200.png" style="width:100%">
             </div>
 
-            <div class="cartogram_slides">
-              <div class="numbertext">600 iterations for squares</div>
-                <img src="image/dorling_square_600.png" style="width:100%">
-            </div>
-
             <!-- Next and previous buttons -->
             <a class="prev" onclick="plusCartSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusCartSlides(1)">&#10095;</a>
 
             <!-- Image text -->
             <div class="caption-cartogram">
-              <p id="capcarto" class="pj-title">Dorling's Cartogram</p>
+              <p id="capcarto" class="pj-title"><small>Spatial bubble chart produced in Python</small></p>
             </div>
           </div>
         </div>
 
         <div class="col-sm-6">
-          <!-- <p>
-            <a href="https://xinyiholly.github.io/flight-delays/index.html" class="pj-title">Flight Delays</a>
-          </p> -->
+          <p class="pj-title" id="country">Switzerland Map</p>
           <!-- Container for the cartogram project gallery -->
-          <div class="flights_container">
+          <div class="cartplus_container">
 
             <!-- Full-width images with number text -->
-            <div class="flights_slides">
+            <div class="cartplus_slides">
+              <div class="numbertext"></div>
+                <img src="image/swiss_nlabel.png" style="width:100%">
+            </div>
+
+            <div class="cartplus_slides">
+              <div class="numbertext"></div>
+                <img src="image/china.png" style="width:100%">
+            </div>
+
+            <div class="cartplus_slides">
+              <div class="numbertext"></div>
+                <img src="image/china_circle.png" style="width:100%">
+            </div>
+
+            <div class="cartplus_slides">
+              <div class="numbertext"></div>
+                <img src="image/china_square.png" style="width:100%">
+            </div>
+
+            <div class="cartplus_slides">
+              <div class="numbertext"></div>
+                <img src="image/usa.png" style="width:100%">
+            </div>
+
+            <div class="cartplus_slides">
+              <div class="numbertext"></div>
+                <img src="image/usa_circle.png" style="width:100%">
+            </div>
+
+            <div class="cartplus_slides">
+              <div class="numbertext"></div>
+                <img src="image/usa_square.png" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusCartplusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusCartplusSlides(1)">&#10095;</a>
+
+            <!-- Image text -->
+            <div class="caption-cartplus">
+              <p id="capcartplus" class="pj-title"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br><br>
+
+    <div class="container-fluid bg-3 text-center">
+      <div class="row">
+        <div class="col-sm-6">
+          <p>
+            <a href="https://xinyiholly.github.io/flight-delays/index.html" class="pj-title">Flight Delays</a>
+          </p>
+          <!-- Container for the cartogram project gallery -->
+          <div class="flight_container">
+
+            <!-- Full-width images with number text -->
+            <div class="flight_slides">
               <div class="numbertext"></div>
                 <img src="image/flight_delays_1.png" style="width:100%">
             </div>
 
-            <div class="flights_slides">
+            <div class="flight_slides">
               <div class="numbertext"></div>
                 <img src="image/flight_delays_2.png" style="width:100%">
             </div>
 
-            <div class="flights_slides">
+            <div class="flight_slides">
               <div class="numbertext"></div>
                 <img src="image/flight_delays_3.png" style="width:100%">
             </div>
 
-            <div class="flights_slides">
+            <div class="flight_slides">
               <div class="numbertext"></div>
                 <img src="image/flight_delays_4.png" style="width:100%">
             </div>
 
-            <div class="flights_slides">
+            <div class="flight_slides">
               <div class="numbertext"></div>
                 <img src="image/flight_delays_5.png" style="width:100%">
             </div>
@@ -142,145 +193,172 @@
             <a class="next" onclick="plusFlSlides(1)">&#10095;</a>
 
             <!-- Image text -->
-            <div class="caption-flights">
-              <p id="capflights"><a href="https://xinyiholly.github.io/flight-delays/index.html" class="pj-title">Flight Delays</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div><br>
-
-    <div class="container-fluid bg-3 text-center">    
-      <div class="row">
-        <div class="col-sm-6"> 
-          <!-- <p class="pj-title">VDBSCAN</p> -->
-          <!-- Container for the human mobility project gallery -->
-          <div class="vdbscan_container">
-            <!-- Full-width images with number text -->
-            <div class="vdbscan_slides">
-              <div class="numbertext">1 / 6</div>
-                <img src="image/img_woods_wide.jpg" style="width:100%">
+            <div class="caption-flight">
+              <p id="capflight" class="pj-title">
+                <small>Developed in JavaScript, D3 and Node.js</small>
+                <a href="https://www.youtube.com/watch?v=bl-s5t3fXCY" id="capflight" class="pj-title"><small>Watch a video demo</small></a>
+              </p>
             </div>
 
-            <div class="vdbscan_slides">
-              <div class="numbertext">2 / 6</div>
-                <img src="image/img_5terre_wide.jpg" style="width:100%">
-            </div>
-
-            <div class="vdbscan_slides">
-              <div class="numbertext">3 / 6</div>
-                <img src="image/img_mountains_wide.jpg" style="width:100%">
-            </div>
-
-            <div class="vdbscan_slides">
-              <div class="numbertext">4 / 6</div>
-                <img src="image/img_lights_wide.jpg" style="width:100%">
-            </div>
-
-            <div class="vdbscan_slides">
-              <div class="numbertext">5 / 6</div>
-                <img src="image/img_nature_wide.jpg" style="width:100%">
-            </div>
-
-            <div class="vdbscan_slides">
-              <div class="numbertext">6 / 6</div>
-                <img src="image/img_snow_wide.jpg" style="width:100%">
-            </div>
-
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusVbSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusVbSlides(1)">&#10095;</a>
-
-            <!-- Image text -->
-            <div class="caption-vdbscan">
-              <p id="capvdbscan" class="pj-title">VDBSCAN</p>
-            </div>
           </div>
         </div>
 
-        <div class="col-sm-6"> 
-          <!-- <p class="pj-title">Human Mobility</p> -->
-          <!-- Container for the human mobility project gallery -->
-          <div class="hmobility_container">
+        <div class="col-sm-6">
+          <p class="pj-title">Image Processing in R</p>
+          <!-- Container for the cartogram project gallery -->
+          <div class="ipr_container">
+
             <!-- Full-width images with number text -->
-            <div class="hmobility_slides">
-              <div class="numbertext">1 / 6</div>
-                <img src="image/img_woods_wide.jpg" style="width:100%">
+            <div class="ipr_slides">
+              <div class="numbertext"></div>
+                <img src="image/rpj1.png" style="width:100%">
             </div>
 
-            <div class="hmobility_slides">
-              <div class="numbertext">2 / 6</div>
-                <img src="image/img_5terre_wide.jpg" style="width:100%">
-            </div>
-
-            <div class="hmobility_slides">
-              <div class="numbertext">3 / 6</div>
-                <img src="image/img_mountains_wide.jpg" style="width:100%">
-            </div>
-
-            <div class="hmobility_slides">
-              <div class="numbertext">4 / 6</div>
-                <img src="image/img_lights_wide.jpg" style="width:100%">
-            </div>
-
-            <div class="hmobility_slides">
-              <div class="numbertext">5 / 6</div>
-                <img src="image/img_nature_wide.jpg" style="width:100%">
-            </div>
-
-            <div class="hmobility_slides">
-              <div class="numbertext">6 / 6</div>
-                <img src="image/img_snow_wide.jpg" style="width:100%">
+            <div class="ipr_slides">
+              <div class="numbertext"></div>
+                <img src="image/rpj2.png" style="width:100%">
             </div>
 
             <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusHmSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusHmSlides(1)">&#10095;</a>
+            <a class="prev" onclick="plusIprSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusIprSlides(1)">&#10095;</a>
 
             <!-- Image text -->
-            <div class="caption-hmobility">
-              <p id="caphmob" class="pj-title">Human Mobility</p>
+            <div class="caption-ipr">
+              <p id="capipr" class="pj-title"></p>
             </div>
+
           </div>
-        </div>     
+        </div>
       </div>
     </div><br><br>
 
     <div class="container-fluid bg-3 text-center">    
       <div class="row">
         <div class="col-sm-6"> 
-          <!-- <p class="pj-title">Power Grid</p> -->
+          <p class="pj-title">Use social media and a variety of stats to show travel patterns<!-- Human Mobility --></p>
           <!-- Container for the human mobility project gallery -->
-          <div class="powergrid_container">
+          <div class="hmobility_container">
             <!-- Full-width images with number text -->
-            <div class="powergrid_slides">
-              <div class="numbertext">1 / 6</div>
-                <img src="image/img_woods_wide.jpg" style="width:100%">
+            <video width="100%" controls>
+              <source src="video/humanmobility_short.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+            <!-- <div class="hmobility_slides">
+              <div class="numbertext"></div>
+                <img src="image/hm2.png" style="width:100%">
             </div>
 
-            <div class="powergrid_slides">
+            <div class="hmobility_slides">
+              <div class="numbertext"></div>
+                <img src="image/hm3.png" style="width:100%">
+            </div>
+
+            <div class="hmobility_slides">
+              <div class="numbertext"></div>
+                <img src="image/hm4.png" style="width:100%">
+            </div>
+
+            <div class="hmobility_slides">
+              <div class="numbertext"></div>
+                <img src="image/hm5.png" style="width:100%">
+            </div>
+
+            Next and previous buttons -->
+            <!-- <a class="prev" onclick="plusHmSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusHmSlides(1)">&#10095;</a> --> 
+
+            <!-- Image text -->
+            <div class="caption-hmobility">
+              <p id="caphmob" class="pj-title"><small>Developed in Java, Javascript, AJAX, D3 and Web World Wind</small></p>
+            </div>
+          </div>
+        </div>      
+
+        <div class="col-sm-6"> 
+          <p class="pj-title">Identify activity zones using spatial clustering and a revised DBSCAN algorithm</p>
+          <!-- Container for the human mobility project gallery -->
+          <div class="mdbscan_container">
+            <!-- Full-width images with number text -->
+            <video width="100%" controls>
+              <source src="video/MDBSCAN_short.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+            <!-- <div class="mdbscan_slides">
               <div class="numbertext">2 / 6</div>
                 <img src="image/img_5terre_wide.jpg" style="width:100%">
             </div>
 
-            <div class="powergrid_slides">
+            <div class="mdbscan_slides">
               <div class="numbertext">3 / 6</div>
                 <img src="image/img_mountains_wide.jpg" style="width:100%">
             </div>
 
-            <div class="powergrid_slides">
+            <div class="mdbscan_slides">
               <div class="numbertext">4 / 6</div>
                 <img src="image/img_lights_wide.jpg" style="width:100%">
             </div>
 
-            <div class="powergrid_slides">
+            <div class="mdbscan_slides">
               <div class="numbertext">5 / 6</div>
                 <img src="image/img_nature_wide.jpg" style="width:100%">
             </div>
 
-            <div class="powergrid_slides">
+            <div class="mdbscan_slides">
               <div class="numbertext">6 / 6</div>
                 <img src="image/img_snow_wide.jpg" style="width:100%">
+            </div> -->
+
+            <!-- Next and previous buttons -->
+            <!-- <a class="prev" onclick="plusVbSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusVbSlides(1)">&#10095;</a> -->
+
+            <!-- Image text -->
+            <div class="caption-mdbscan">
+              <p id="capmdbscan" class="pj-title"><small>Developed in Java, Javascript, AJAX and Google Maps API</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><br><br>    
+
+    <div class="container-fluid bg-3 text-center">    
+      <div class="row">
+        <div class="col-sm-6"> 
+          <p class="pj-title">Power Grids</p>
+          <!-- Container for the human mobility project gallery -->
+          <div class="powergrid_container">
+            <!-- Full-width images with number text -->
+            <div class="powergrid_slides">
+              <div class="numbertext"></div>
+                <img src="image/pg1.png" style="width:100%">
+            </div>
+
+            <div class="powergrid_slides">
+              <div class="numbertext"></div>
+                <img src="image/pg2.png" style="width:100%">
+            </div>
+
+            <div class="powergrid_slides">
+              <div class="numbertext"></div>
+                <img src="image/pg3.png" style="width:100%">
+            </div>
+
+            <div class="powergrid_slides">
+              <div class="numbertext"></div>
+                <img src="image/pg4.png" style="width:100%">
+            </div>
+
+            <div class="powergrid_slides">
+              <div class="numbertext"></div>
+                <img src="image/pg5.png" style="width:100%">
+            </div>
+
+            <div class="powergrid_slides">
+              <div class="numbertext"></div>
+                <img src="image/pg6.png" style="width:100%">
             </div>
 
             <!-- Next and previous buttons -->
@@ -289,45 +367,30 @@
 
             <!-- Image text -->
             <div class="caption-powergrid">
-              <p id="cappower" class="pj-title">Power Grid</p>
+              <p id="cappower" class="pj-title"><small>Dijkstra algorithm implemented in Jave for further optimization using geographic features</small></p>
             </div>
           </div>
         </div>
 
         <div class="col-sm-6">
-          <!-- <p class="pj-title">Markov Mesh Model</p> -->
+          <p class="pj-title">Markov Mesh Model</p>
           <!-- Container for the cartogram project gallery -->
           <div class="mmm_container">
 
             <!-- Full-width images with number text -->
             <div class="mmm_slides">
-              <div class="numbertext">1 / 6</div>
-                <img src="image/img_woods_wide.jpg" style="width:100%">
+              <div class="numbertext"></div>
+                <img src="image/markov2.png" style="width:100%">
             </div>
 
             <div class="mmm_slides">
-              <div class="numbertext">2 / 6</div>
-                <img src="image/img_5terre_wide.jpg" style="width:100%">
+              <div class="numbertext"></div>
+                <img src="image/markov3.png" style="width:100%">
             </div>
 
             <div class="mmm_slides">
-              <div class="numbertext">3 / 6</div>
-                <img src="image/img_mountains_wide.jpg" style="width:100%">
-            </div>
-
-            <div class="mmm_slides">
-              <div class="numbertext">4 / 6</div>
-                <img src="image/img_lights_wide.jpg" style="width:100%">
-            </div>
-
-            <div class="mmm_slides">
-              <div class="numbertext">5 / 6</div>
-                <img src="image/img_nature_wide.jpg" style="width:100%">
-            </div>
-
-            <div class="mmm_slides">
-              <div class="numbertext">6 / 6</div>
-                <img src="image/img_snow_wide.jpg" style="width:100%">
+              <div class="numbertext"></div>
+                <img src="image/markov1.png" style="width:100%">
             </div>
 
             <!-- Next and previous buttons -->
@@ -336,12 +399,12 @@
 
             <!-- Image text -->
             <div class="caption-mmm">
-              <p id="capmmm" class="pj-title">Markov Mesh Model</p>
+              <p id="capmmm" class="pj-title"><small>Produced in C++</small></p>
             </div>
           </div>
         </div>
       </div>
-    </div><br><br>
+    </div><br>
 
 	</div>
   <div class="bgmeimage">
@@ -414,6 +477,7 @@
   </div>
 </div>
 
+<script type="text/javascript" src="lib/jquery-3.1.1.js"></script>
 <script src="js/main.js"></script>
 
 </body>
